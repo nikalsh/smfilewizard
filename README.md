@@ -1,5 +1,6 @@
 # smfilewizard
   Application for quick generation of smfiles for StepMania that I made for myself
+    
     User chooses their StepMania/Songs/[Group] directory
     
     Optionally fills in details about the song (required fields are marked with "*")
