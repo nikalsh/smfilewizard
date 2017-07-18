@@ -53,7 +53,7 @@ Object[] message = {
     "#BGCHANGES:", field19,
     "#NOTES:", field20
 };
-boolean Done = false;
+//boolean Done = false;
 JFileChooser chooser = new JFileChooser();
 
 //        chooser.setApproveButtonText("APPROVE");
@@ -69,7 +69,7 @@ JFileChooser chooser = new JFileChooser();
         
 int option = JOptionPane.showConfirmDialog(null, message, "SMFile Wizard", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
 
-if (option == JOptionPane.OK_OPTION && Done == true)
+if (option == JOptionPane.OK_OPTION)
 {   
     //<editor-fold defaultstate="collapsed" desc="array">
     String[] value = new String[20];
